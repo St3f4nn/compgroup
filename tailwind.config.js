@@ -17,6 +17,10 @@ module.exports = {
 
       "cta-dark": `inset 0px 0px 0px 1px #1864ab`,
       "cta-light": `inset 0px 0px 0px 1px #e7f5ff`,
+
+      "icon-border": "inset 0px 0px 0px 2px #212529",
+
+      none: "0 0 #000",
     },
     colors: {
       // Main color
@@ -37,10 +41,18 @@ module.exports = {
 
       "teal-0": "#e6fcf5",
       "teal-7": "#0ca678",
+
+      white: "#fff",
     },
     extend: {
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
+      },
+      minWidth: {
+        55: "13.75rem",
+      },
+      spacing: {
+        18.375: "4.59375rem",
       },
     },
   },
