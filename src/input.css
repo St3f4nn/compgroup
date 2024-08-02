@@ -7,6 +7,10 @@
     @apply inline-block;
   }
 
+  a.active-link {
+    @apply text-gray-9 after:w-full;
+  }
+
   #main-header.open-nav .container #hamburger-icon {
     @apply hidden;
   }
