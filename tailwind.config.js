@@ -18,7 +18,11 @@ module.exports = {
       "cta-dark": `inset 0px 0px 0px 1px #1864ab`,
       "cta-light": `inset 0px 0px 0px 1px #e7f5ff`,
 
-      "icon-border": "inset 0px 0px 0px 2px #212529",
+      "icon-border-dark": "inset 0px 0px 0px 2px #212529",
+
+      "icon-border-light-blue": "inset 0px 0px 0px 1px #e7f5ff",
+      "icon-border-light-red": "inset 0px 0px 0px 1px #fff5f5",
+      "icon-border-light-green": "inset 0px 0px 0px 1px #e6fcf5",
 
       none: "0 0 #000",
     },
@@ -43,10 +47,22 @@ module.exports = {
       "teal-7": "#0ca678",
 
       white: "#fff",
+      transparent: "transparent",
     },
     extend: {
+      backgroundImage: {
+        // Images
+
+        "lines-pattern": "url('../assets/images/patterns/lines_pattern.png')",
+      },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
+      },
+      gridTemplateColumns: {
+        "footer-desktop-layout": "2fr 1fr 1fr 2fr",
+      },
+      height: {
+        107.5: "26.875rem",
       },
       minWidth: {
         55: "13.75rem",
