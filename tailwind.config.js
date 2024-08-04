@@ -50,19 +50,11 @@ module.exports = {
       transparent: "transparent",
     },
     extend: {
-      backgroundImage: {
-        // Images
-
-        "lines-pattern": "url('../assets/images/patterns/lines_pattern.png')",
-      },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
       },
       gridTemplateColumns: {
         "footer-desktop-layout": "2fr 1fr 1fr 2fr",
-      },
-      height: {
-        107.5: "26.875rem",
       },
       minWidth: {
         55: "13.75rem",
