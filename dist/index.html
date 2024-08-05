@@ -227,7 +227,8 @@
     <footer class="overflow-hidden">
       <!-- Warning notification -->
       <div
-        class="bg-red-7 flex items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
+        class="bg-red-7 hidden items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
+        id="warning-notification"
       >
         <!-- Warning notification icon -->
         <div
@@ -255,6 +256,7 @@
           height="12"
           fill="#fff5f5"
           class="cursor-pointer ml-auto flex-shrink-0"
+          id="close-note-btn"
         >
           <path
             d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
@@ -263,7 +265,8 @@
       </div>
       <!-- Success notification -->
       <div
-        class="bg-teal-7 flex items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
+        class="bg-teal-7 hidden items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
+        id="success-notification"
       >
         <!-- Success notification icon -->
         <div
@@ -291,6 +294,7 @@
           height="12"
           fill="#e6fcf5"
           class="cursor-pointer ml-auto flex-shrink-0"
+          id="close-note-btn"
         >
           <path
             d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
@@ -411,8 +415,9 @@
                 type="email"
                 placeholder="Enter e-mail"
                 class="font-normal text-sm leading-normal text-gray-9 placeholder:text-gray-7 outline-none focus:border-gray-9 pb-1 pr-8 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 w-full bg-transparent"
+                id="email-input-field"
               />
-              <button type="submit" class="cursor-pointer group">
+              <button type="submit" class="cursor-pointer group" id="sub-btn">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"

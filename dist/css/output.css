@@ -850,6 +850,11 @@ a.active-link::after {
   border-color: rgb(73 80 87 / var(--tw-border-opacity));
 }
 
+.border-red-7 {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 62 62 / var(--tw-border-opacity));
+}
+
 .bg-blue-9 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 100 171 / var(--tw-bg-opacity));

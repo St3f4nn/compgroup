@@ -3,7 +3,7 @@ module.exports = {
   corePlugins: {
     container: false,
   },
-  content: ["./dist/**/*.html"],
+  content: ["./dist/**/*.html", "./dist/js/**/*.js"],
   theme: {
     boxShadow: {
       "right-1": "5px 5px 24px 0px rgba(33,37,41,0.08)",
