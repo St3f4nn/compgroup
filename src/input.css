@@ -35,6 +35,18 @@
     @apply font-normal text-base text-gray-7 capitalize transition-all duration-200 relative after:content-[''] after:block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:bg-gray-9 after:rounded-full after:transition-all after:duration-200 hover:text-gray-9 hover:after:w-full;
   }
 
+  .cta {
+    @apply font-normal text-base md:text-lg xl:text-xl xl:leading-8 capitalize py-3 px-8 rounded;
+  }
+
+  .cta-dark {
+    @apply bg-blue-9 text-blue-0 shadow-cta-dark transition-all duration-200 hover:bg-transparent hover:text-blue-9;
+  }
+
+  .cta-light {
+    @apply bg-blue-0 text-blue-9 shadow-cta-light transition-all duration-200 hover:bg-transparent hover:text-blue-0;
+  }
+
   .footer-heading {
     @apply font-normal text-base text-gray-9 capitalize;
   }
