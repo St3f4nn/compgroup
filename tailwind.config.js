@@ -50,6 +50,12 @@ module.exports = {
       transparent: "transparent",
     },
     extend: {
+      backgroundImage: {
+        // Gradients
+
+        "home-hero-overlay":
+          "linear-gradient(0deg, rgba(24,100,171,1) 0%, rgba(24,100,171,0.9) 50%, rgba(24,100,171,0.2) 100%)",
+      },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
       },

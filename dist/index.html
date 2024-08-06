@@ -226,57 +226,83 @@
     <!-- Main content -->
     <main>
       <!-- Hero section -->
-      <section>
-        <video poster="./assets/images/cover.jpg" autoplay muted loop>
+      <section class="relative">
+        <video
+          class="absolute top-0 left-0 w-full h-full object-cover z-10"
+          poster="./assets/images/cover.jpg"
+          autoplay
+          muted
+          loop
+        >
           <source
             src="./assets/videos/team_working_video.mp4"
             type="video/mp4"
           />
         </video>
-        <div class="container">
-          <!-- Hero section text box -->
-          <div>
-            <h1>extensive range of tech services under one roof</h1>
-            <p>
-              Discover our complete IT solutions enhancing business operations,
-              encompassing support, development, marketing strategies, and
-              security measures.
-            </p>
-            <!-- Hero section text box links -->
-            <div>
-              <a href="#" class="cta cta-light">our solutions</a>
-              <a href="#">success stories</a>
+        <div
+          class="relative z-20 bg-home-hero-overlay pt-28 pb-6 md:pt-40 xl:pt-48"
+        >
+          <div class="container">
+            <!-- Hero section text box -->
+            <div class="mx-auto sm:mx-0 max-w-md md:max-w-xl xl:max-w-2xl">
+              <h1 class="hero-heading sm:text-left">
+                extensive range of tech services under one roof
+              </h1>
+              <p class="hero-paragraph sm:text-left">
+                Discover our complete IT solutions enhancing business
+                operations, encompassing support, development, marketing
+                strategies, and security measures.
+              </p>
+              <!-- Hero section text box links -->
+              <div
+                class="flex flex-col items-center text-center gap-8 sm:flex-row sm:text-left mt-16"
+              >
+                <a href="#" class="cta cta-light">our solutions</a>
+                <a
+                  href="#"
+                  class="font-normal text-base md:text-lg xl:text-xl xl:leading-8 text-blue-0 capitalize transition-all duration-200 hover:text-white"
+                  >success stories</a
+                >
+              </div>
             </div>
-          </div>
-          <!-- Hero section logos -->
-          <div>
-            <a href="https://www.ibm.com/us-en" target="_blank">
-              <img src="./assets/images/logos/ibm_logo.svg" alt="IBM logo" />
-            </a>
-            <a href="https://whiteshark.gg/" target="_blank">
-              <img
-                src="./assets/images/logos/white_shark_logo.svg"
-                alt="WHITE SHARK logo"
-              />
-            </a>
-            <a href="https://www.sony.net/" target="_blank">
-              <img src="./assets/images/logos/sony_logo.svg" alt="SONY logo" />
-            </a>
-            <a href="https://www.asus.com/" target="_blank">
-              <img src="./assets/images/logos/asus_logo.svg" alt="ASUS logo" />
-            </a>
-            <a href="https://www.starbucks.com/" target="_blank">
-              <img
-                src="./assets/images/logos/starbucks_coffee_logo.svg"
-                alt="STARBUCKS COFFEE logo"
-              />
-            </a>
-            <a href="https://www.mcdonalds.com/us/en-us.html" target="_blank">
-              <img
-                src="./assets/images/logos/mc_donald's_logo.svg"
-                alt="Mc Donald's logo"
-              />
-            </a>
+            <!-- Hero section logos -->
+            <div
+              class="flex items-center justify-center gap-3 md:gap-6 mt-28 md:mt-32"
+            >
+              <a href="https://www.ibm.com/us-en" target="_blank">
+                <img src="./assets/images/logos/ibm_logo.svg" alt="IBM logo" />
+              </a>
+              <a href="https://whiteshark.gg/" target="_blank">
+                <img
+                  src="./assets/images/logos/white_shark_logo.svg"
+                  alt="WHITE SHARK logo"
+                />
+              </a>
+              <a href="https://www.sony.net/" target="_blank">
+                <img
+                  src="./assets/images/logos/sony_logo.svg"
+                  alt="SONY logo"
+                />
+              </a>
+              <a href="https://www.asus.com/" target="_blank">
+                <img
+                  src="./assets/images/logos/asus_logo.svg"
+                  alt="ASUS logo"
+                />
+              </a>
+              <a href="https://www.starbucks.com/" target="_blank">
+                <img
+                  src="./assets/images/logos/starbucks_coffee_logo.svg"
+                  alt="STARBUCKS COFFEE logo"
+                />
+              </a>
+              <a href="https://www.mcdonalds.com/us/en-us.html" target="_blank">
+                <img
+                  src="./assets/images/logos/mc_donald's_logo.svg"
+                  alt="Mc Donald's logo"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

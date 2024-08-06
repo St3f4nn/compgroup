@@ -661,6 +661,10 @@ a.active-link::after {
   z-index: 50;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -672,6 +676,14 @@ a.active-link::after {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .flex {
@@ -739,6 +751,26 @@ a.active-link::after {
   max-width: 640px;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -781,6 +813,10 @@ a.active-link::after {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -819,6 +855,10 @@ a.active-link::after {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .justify-self-center {
@@ -887,6 +927,10 @@ a.active-link::after {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-home-hero-overlay {
+  background-image: linear-gradient(0deg, rgba(24,100,171,1) 0%, rgba(24,100,171,0.9) 50%, rgba(24,100,171,0.2) 100%);
+}
+
 .fill-blue-0 {
   fill: #e7f5ff;
 }
@@ -897,6 +941,11 @@ a.active-link::after {
 
 .fill-gray-9 {
   fill: #212529;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-1 {
@@ -942,6 +991,14 @@ a.active-link::after {
 
 .pt-0 {
   padding-top: 0px;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -1108,6 +1165,55 @@ a.active-link::after {
   width: 100%;
 }
 
+.hero-heading {
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  --tw-text-opacity: 1;
+  color: rgb(231 245 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .hero-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-heading {
+    font-size: 3rem;
+    line-height: 1.25;
+  }
+}
+
+.hero-paragraph {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(231 245 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .hero-paragraph {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-paragraph {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    line-height: 1.5;
+  }
+}
+
 .cta {
   border-radius: 0.25rem;
   padding-top: 0.75rem;
@@ -1212,6 +1318,11 @@ a.active-link::after {
   color: rgb(33 37 41 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .focus\:border-gray-9:focus {
   --tw-border-opacity: 1;
   border-color: rgb(33 37 41 / var(--tw-border-opacity));
@@ -1246,6 +1357,21 @@ a.active-link::after {
   padding-top: 1.25rem;
 }
 
+@media (min-width: 640px) {
+  .sm\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:pointer-events-none {
     pointer-events: none;
@@ -1273,6 +1399,10 @@ a.active-link::after {
 
   .md\:top-auto {
     top: auto;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:inline {
@@ -1321,6 +1451,10 @@ a.active-link::after {
     max-width: 100%;
   }
 
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .md\:translate-x-0 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1364,6 +1498,10 @@ a.active-link::after {
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
   }
 
   .md\:justify-self-end {
@@ -1413,12 +1551,21 @@ a.active-link::after {
     padding-bottom: 1.75rem;
   }
 
+  .md\:pt-40 {
+    padding-top: 10rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
 
   .md\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
@@ -1517,6 +1664,10 @@ a.active-link::after {
     max-width: 12rem;
   }
 
+  .xl\:max-w-2xl {
+    max-width: 42rem;
+  }
+
   .xl\:grid-cols-footer-desktop-layout {
     grid-template-columns: 2fr 1fr 1fr 2fr;
   }
@@ -1556,8 +1707,25 @@ a.active-link::after {
     padding-bottom: 2rem;
   }
 
+  .xl\:pt-48 {
+    padding-top: 12rem;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:leading-normal {
+    line-height: 1.5;
+  }
+
+  .xl\:leading-8 {
     line-height: 2rem;
   }
 
