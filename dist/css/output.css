@@ -458,6 +458,10 @@ a.active-link::after {
   width: 100%;
 }
 
+img {
+  width: 100%;
+}
+
 #main-header.open-nav .container #hamburger-icon {
   display: none;
 }
@@ -645,6 +649,10 @@ a.active-link::after {
   top: 50%;
 }
 
+.-left-0 {
+  left: -0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -663,6 +671,10 @@ a.active-link::after {
 
 .z-50 {
   z-index: 50;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
 }
 
 .mx-auto {
@@ -785,6 +797,12 @@ a.active-link::after {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-scale-100 {
+  --tw-scale-x: -1;
+  --tw-scale-y: -1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .-scale-y-100 {
   --tw-scale-y: -1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -796,6 +814,12 @@ a.active-link::after {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .grid-cols-1 {
@@ -903,6 +927,11 @@ a.active-link::after {
 .bg-blue-9 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 100 171 / var(--tw-bg-opacity));
+}
+
+.bg-gray-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 243 245 / var(--tw-bg-opacity));
 }
 
 .bg-red-7 {
@@ -1488,8 +1517,16 @@ a.active-link::after {
     position: relative;
   }
 
+  .md\:left-auto {
+    left: auto;
+  }
+
   .md\:right-0 {
     right: 0px;
+  }
+
+  .md\:right-6 {
+    right: 1.5rem;
   }
 
   .md\:right-auto {
@@ -1502,6 +1539,10 @@ a.active-link::after {
 
   .md\:top-auto {
     top: auto;
+  }
+
+  .md\:row-auto {
+    grid-row: auto;
   }
 
   .md\:mt-32 {
@@ -1707,6 +1748,12 @@ a.active-link::after {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  .md\:shadow-right-2 {
+    --tw-shadow: 5px 5px 24px 0px rgba(33,37,41,0.32);
+    --tw-shadow-colored: 5px 5px 24px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
   .md\:before\:block::before {
     content: var(--tw-content);
     display: block;
@@ -1756,6 +1803,10 @@ a.active-link::after {
 
   .xl\:-left-6 {
     left: -1.5rem;
+  }
+
+  .xl\:-right-6 {
+    right: -1.5rem;
   }
 
   .xl\:left-0 {

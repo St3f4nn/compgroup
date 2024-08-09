@@ -11,6 +11,10 @@
     @apply text-gray-9 after:w-full;
   }
 
+  img {
+    @apply w-full;
+  }
+
   #main-header.open-nav .container #hamburger-icon {
     @apply hidden;
   }
