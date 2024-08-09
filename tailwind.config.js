@@ -62,6 +62,9 @@ module.exports = {
       gridTemplateColumns: {
         "footer-desktop-layout": "2fr 1fr 1fr 2fr",
       },
+      letterSpacing: {
+        20: "0.2em",
+      },
       minWidth: {
         55: "13.75rem",
       },

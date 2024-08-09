@@ -307,40 +307,44 @@
         </div>
       </section>
       <!-- About section -->
-      <section>
+      <section class="bg-white py-28 md:py-32 xl:py-36 relative">
         <!-- Lines pattern desktop -->
         <img
           src="./assets/images/patterns/lines_pattern.png"
           alt="Lines pattern desktop"
-          class="hidden md:inline opacity-20 max-w-screen-md"
+          class="hidden md:inline opacity-20 max-w-screen-md absolute top-0 right-0 z-10 -scale-y-100"
         />
-        <div class="container">
+        <div
+          class="container relative z-20 grid grid-cols-1 md:grid-cols-2 items-center gap-16 md:gap-20 xl:gap-24"
+        >
           <!-- About section image -->
-          <div>
+          <div class="relative">
             <img
               src="./assets/images/company_building.jpg"
               alt="Company building"
+              class="rounded shadow-top-2 md:shadow-left-2 relative z-20"
             />
             <img
               src="./assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -top-12 left-6 xl:top-auto xl:-left-6 xl:-bottom-6 z-10"
             />
           </div>
           <!-- About section text box -->
           <div>
             <header>
-              <h4>who are we?</h4>
-              <h2>we are <span>CompGroup</span></h2>
+              <h4 class="section-pre-heading">who are we?</h4>
+              <h2 class="section-heading">we are <span>CompGroup</span></h2>
             </header>
-            <div>
-              <p>
+            <div class="section-paragraph-box">
+              <p class="section-paragraph">
                 We combine innovation with expertise to provide top-notch IT
                 services, tailored to meet your business needs. Discover how our
                 commitment to excellence and customer satisfaction drives us to
                 deliver exceptional results every time.
               </p>
             </div>
-            <a href="#" class="cta cta-dark">learn more</a>
+            <a href="#" class="cta cta-dark mt-16">learn more</a>
           </div>
         </div>
       </section>

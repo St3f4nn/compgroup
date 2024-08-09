@@ -609,6 +609,10 @@ a.active-link::after {
   position: sticky;
 }
 
+.-top-12 {
+  top: -3rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -702,6 +706,10 @@ a.active-link::after {
   height: 0.75rem;
 }
 
+.h-44 {
+  height: 11rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -716,6 +724,10 @@ a.active-link::after {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-44 {
+  width: 11rem;
 }
 
 .w-6 {
@@ -747,12 +759,12 @@ a.active-link::after {
   max-width: 28rem;
 }
 
-.max-w-screen-sm {
-  max-width: 640px;
-}
-
 .max-w-screen-md {
   max-width: 768px;
+}
+
+.max-w-screen-sm {
+  max-width: 640px;
 }
 
 .flex-shrink-0 {
@@ -770,6 +782,11 @@ a.active-link::after {
 
 .translate-x-full {
   --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-scale-y-100 {
+  --tw-scale-y: -1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -951,6 +968,11 @@ a.active-link::after {
   padding-bottom: 4.59375rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1086,6 +1108,12 @@ a.active-link::after {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-top-2 {
+  --tw-shadow: 0px -5px 24px 0px rgba(33,37,41,0.32);
+  --tw-shadow-colored: 0px -5px 24px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1191,6 +1219,81 @@ a.active-link::after {
     font-size: 1.5rem;
     line-height: 2rem;
     line-height: 1.5;
+  }
+}
+
+.section-pre-heading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  --tw-text-opacity: 1;
+  color: rgb(24 100 171 / var(--tw-text-opacity));
+}
+
+.section-heading {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  --tw-text-opacity: 1;
+  color: rgb(33 37 41 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    line-height: 1.25;
+  }
+}
+
+.section-heading span {
+  --tw-text-opacity: 1;
+  color: rgb(24 100 171 / var(--tw-text-opacity));
+}
+
+.section-paragraph-box {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-paragraph-box {
+    gap: 2rem;
+  }
+}
+
+.section-paragraph {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(73 80 87 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .section-paragraph {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-paragraph {
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 }
 
@@ -1487,6 +1590,10 @@ a.active-link::after {
     gap: 0.5rem;
   }
 
+  .md\:gap-20 {
+    gap: 5rem;
+  }
+
   .md\:gap-5 {
     gap: 1.25rem;
   }
@@ -1540,6 +1647,11 @@ a.active-link::after {
     padding-bottom: 3.5rem;
   }
 
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1574,6 +1686,12 @@ a.active-link::after {
 
   .md\:opacity-0 {
     opacity: 0;
+  }
+
+  .md\:shadow-left-2 {
+    --tw-shadow: -5px 5px 24px 0px rgba(33,37,41,0.32);
+    --tw-shadow-colored: -5px 5px 24px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
   .md\:shadow-none {
@@ -1631,12 +1749,24 @@ a.active-link::after {
 }
 
 @media (min-width: 1280px) {
+  .xl\:-bottom-6 {
+    bottom: -1.5rem;
+  }
+
+  .xl\:-left-6 {
+    left: -1.5rem;
+  }
+
   .xl\:left-0 {
     left: 0px;
   }
 
   .xl\:right-auto {
     right: auto;
+  }
+
+  .xl\:top-auto {
+    top: auto;
   }
 
   .xl\:h-4 {
@@ -1683,6 +1813,10 @@ a.active-link::after {
     gap: 0.625rem;
   }
 
+  .xl\:gap-24 {
+    gap: 6rem;
+  }
+
   .xl\:gap-6 {
     gap: 1.5rem;
   }
@@ -1699,6 +1833,11 @@ a.active-link::after {
   .xl\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .xl\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
   }
 
   .xl\:py-8 {
