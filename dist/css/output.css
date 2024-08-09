@@ -1258,6 +1258,7 @@ a.active-link::after {
 }
 
 .section-heading span {
+  text-transform: capitalize;
   --tw-text-opacity: 1;
   color: rgb(24 100 171 / var(--tw-text-opacity));
 }
