@@ -101,7 +101,7 @@
                   class="flex items-start flex-col gap-4 md:gap-5 xl:gap-6 md:rounded md:py-7 md:px-9 xl:py-8 xl:px-10 transition-all duration-300 h-0 pt-0 overflow-hidden group-hover:pt-5 group-hover:h-auto md:shadow-right-1 md:h-auto md:group-hover:pt-7 xl:group-hover:pt-8 md:bg-white"
                 >
                   <li>
-                    <a href="#" class="nav-link">our history</a>
+                    <a href="#our-history" class="nav-link">our history</a>
                   </li>
                   <li>
                     <a href="#" class="nav-link">projects</a>
@@ -241,27 +241,35 @@
         </div>
       </section>
       <!-- Our history section -->
-      <section>
+      <section
+        class="bg-white py-28 md:py-32 xl:py-36 relative overflow-hidden"
+        id="our-history"
+      >
         <!-- Lines pattern desktop -->
         <img
           src="./assets/images/patterns/lines_pattern_top_left.png"
           alt="Lines pattern desktop"
+          class="hidden md:inline opacity-20 max-w-screen-md absolute top-0 left-0 z-10 select-none"
         />
-        <div class="container">
+        <div
+          class="container relative z-20 grid grid-cols-1 md:grid-cols-2 items-center gap-16 md:gap-20 xl:gap-24"
+        >
           <!-- Our history section text box -->
           <div>
             <header>
-              <h4>our beginnings</h4>
-              <h2>small team, <span>big dreams</span></h2>
+              <h4 class="section-pre-heading">our beginnings</h4>
+              <h2 class="section-heading">
+                small team, <span>big dreams</span>
+              </h2>
             </header>
-            <div>
-              <p>
+            <div class="section-paragraph-box">
+              <p class="section-paragraph">
                 In 2010, a small team of three passionate friends embarked on a
                 journey fueled by a shared vision. Late nights in a tiny garage
                 were spent brainstorming, coding, and dreaming big, all with the
                 goal of creating transformative IT solutions.
               </p>
-              <p>
+              <p class="section-paragraph">
                 From these humble beginnings, our dedication to excellence and
                 customer satisfaction helped us overcome challenges and
                 celebrate milestones. Through relentless innovation and hard
@@ -271,11 +279,16 @@
             </div>
           </div>
           <!-- Our history section image -->
-          <div>
-            <img src="./assets/images/small_team.jpg" alt="Small team" />
+          <div class="relative row-start-1 md:row-auto">
+            <img
+              src="./assets/images/small_team.jpg"
+              alt="Small team"
+              class="rounded shadow-top-2 md:shadow-right-2 relative z-20"
+            />
             <img
               src="./assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -top-12 left-6 md:right-6 md:left-auto xl:top-auto xl:-right-6 xl:-bottom-6 z-10"
             />
           </div>
         </div>
@@ -454,7 +467,7 @@
             <nav class="mt-6">
               <ul class="flex flex-col items-start gap-5">
                 <li>
-                  <a href="#" class="footer-link">our history</a>
+                  <a href="#our-history" class="footer-link">our history</a>
                 </li>
                 <li>
                   <a href="#" class="footer-link">projects</a>
