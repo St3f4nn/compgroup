@@ -938,10 +938,6 @@ img {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-85 {
-  --tw-bg-opacity: 0.85;
-}
-
 .bg-company-building {
   background-image: url('../assets/images/company_building.jpg');
 }
@@ -1943,6 +1939,11 @@ img {
     padding-bottom: 4rem;
   }
 
+  .xl\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .xl\:py-36 {
     padding-top: 9rem;
     padding-bottom: 9rem;
@@ -1951,11 +1952,6 @@ img {
   .xl\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .xl\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
   }
 
   .xl\:pt-48 {
