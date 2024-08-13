@@ -750,6 +750,10 @@ img {
   height: 100%;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -773,6 +777,10 @@ img {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-32 {
@@ -970,6 +978,10 @@ img {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+
 .bg-company-building {
   background-image: url('../assets/images/company_building.jpg');
 }
@@ -1092,6 +1104,11 @@ img {
   font-family: 'Montserrat', sans-serif;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1110,11 +1127,6 @@ img {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-normal {
@@ -1572,6 +1584,10 @@ img {
   background-color: rgb(24 100 171 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-opacity-100:hover {
+  --tw-bg-opacity: 1;
+}
+
 .hover\:text-gray-9:hover {
   --tw-text-opacity: 1;
   color: rgb(33 37 41 / var(--tw-text-opacity));
@@ -1836,6 +1852,11 @@ img {
     padding-bottom: 0px;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -1856,17 +1877,17 @@ img {
     padding-bottom: 1.75rem;
   }
 
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .md\:pt-40 {
     padding-top: 10rem;
   }
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:text-lg {
@@ -1882,11 +1903,6 @@ img {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .md\:leading-normal {
@@ -2028,6 +2044,10 @@ img {
     grid-template-columns: 2fr 1fr 1fr 2fr;
   }
 
+  .xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .xl\:gap-12 {
     gap: 3rem;
   }
@@ -2052,10 +2072,6 @@ img {
     gap: 2rem;
   }
 
-  .xl\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .xl\:gap-x-10 {
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
@@ -2068,6 +2084,11 @@ img {
   .xl\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .xl\:py-11 {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
   }
 
   .xl\:py-16 {
@@ -2088,11 +2109,6 @@ img {
   .xl\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .xl\:py-11 {
-    padding-top: 2.75rem;
-    padding-bottom: 2.75rem;
   }
 
   .xl\:pt-48 {
