@@ -617,6 +617,10 @@ img {
   top: -3rem;
 }
 
+.-top-6 {
+  top: -1.5rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -647,10 +651,6 @@ img {
 
 .top-1\/2 {
   top: 50%;
-}
-
-.-top-6 {
-  top: -1.5rem;
 }
 
 .z-10 {
@@ -698,6 +698,10 @@ img {
   margin-top: 0.625rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .mt-28 {
   margin-top: 7rem;
 }
@@ -708,10 +712,6 @@ img {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .flex {
@@ -863,6 +863,10 @@ img {
   gap: 2.5rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-16 {
   gap: 4rem;
 }
@@ -889,10 +893,6 @@ img {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .justify-self-center {
@@ -990,16 +990,16 @@ img {
   fill: #e7f5ff;
 }
 
+.fill-blue-9 {
+  fill: #1864ab;
+}
+
 .fill-gray-7 {
   fill: #495057;
 }
 
 .fill-gray-9 {
   fill: #212529;
-}
-
-.fill-blue-9 {
-  fill: #1864ab;
 }
 
 .object-cover {
@@ -1018,6 +1018,16 @@ img {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-16 {
@@ -1043,16 +1053,6 @@ img {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pb-1 {
@@ -1148,6 +1148,12 @@ img {
   opacity: 0.2;
 }
 
+.shadow-icon-border-blue {
+  --tw-shadow: inset 0px 0px 0px 1px #1864ab;
+  --tw-shadow-colored: inset 0px 0px 0px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-icon-border-dark {
   --tw-shadow: inset 0px 0px 0px 2px #212529;
   --tw-shadow-colored: inset 0px 0px 0px 2px var(--tw-shadow-color);
@@ -1187,12 +1193,6 @@ img {
 .shadow-top-2 {
   --tw-shadow: 0px -5px 24px 0px rgba(33,37,41,0.32);
   --tw-shadow-colored: 0px -5px 24px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-icon-border-blue {
-  --tw-shadow: inset 0px 0px 0px 1px #1864ab;
-  --tw-shadow-colored: inset 0px 0px 0px 1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1586,16 +1586,16 @@ img {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.group:hover .group-hover\:fill-blue-0 {
+  fill: #e7f5ff;
+}
+
 .group:hover .group-hover\:fill-blue-9 {
   fill: #1864ab;
 }
 
 .group:hover .group-hover\:fill-gray-9 {
   fill: #212529;
-}
-
-.group:hover .group-hover\:fill-blue-0 {
-  fill: #e7f5ff;
 }
 
 .group:hover .group-hover\:pt-5 {
@@ -1725,12 +1725,12 @@ img {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
