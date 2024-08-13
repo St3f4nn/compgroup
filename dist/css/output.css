@@ -835,6 +835,10 @@ img {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1055,6 +1059,11 @@ img {
   padding-bottom: 1.5rem;
 }
 
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1103,6 +1112,11 @@ img {
   line-height: 1rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -1117,6 +1131,10 @@ img {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .text-blue-0 {
@@ -1773,6 +1791,10 @@ img {
     gap: 2rem;
   }
 
+  .md\:gap-9 {
+    gap: 2.25rem;
+  }
+
   .md\:gap-x-9 {
     -moz-column-gap: 2.25rem;
          column-gap: 2.25rem;
@@ -1834,6 +1856,11 @@ img {
     padding-bottom: 1.75rem;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:pt-40 {
     padding-top: 10rem;
   }
@@ -1857,8 +1884,17 @@ img {
     line-height: 1.75rem;
   }
 
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .md\:leading-normal {
     line-height: 1.5;
+  }
+
+  .md\:leading-tight {
+    line-height: 1.25;
   }
 
   .md\:opacity-0 {
@@ -2016,6 +2052,10 @@ img {
     gap: 2rem;
   }
 
+  .xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .xl\:gap-x-10 {
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
@@ -2048,6 +2088,11 @@ img {
   .xl\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .xl\:py-11 {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
   }
 
   .xl\:pt-48 {
