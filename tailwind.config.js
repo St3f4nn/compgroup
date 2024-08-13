@@ -20,6 +20,8 @@ module.exports = {
 
       "icon-border-dark": "inset 0px 0px 0px 2px #212529",
 
+      "icon-border-blue": "inset 0px 0px 0px 1px #1864ab",
+
       "icon-border-light-blue": "inset 0px 0px 0px 1px #e7f5ff",
       "icon-border-light-red": "inset 0px 0px 0px 1px #fff5f5",
       "icon-border-light-green": "inset 0px 0px 0px 1px #e6fcf5",

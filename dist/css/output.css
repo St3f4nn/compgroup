@@ -649,6 +649,10 @@ img {
   top: 50%;
 }
 
+.-top-6 {
+  top: -1.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -686,12 +690,28 @@ img {
   margin-top: 4rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem;
+}
+
 .mt-28 {
   margin-top: 7rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .flex {
@@ -720,6 +740,10 @@ img {
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .h-full {
@@ -867,6 +891,10 @@ img {
   gap: 2rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .justify-self-center {
   justify-self: center;
 }
@@ -970,6 +998,10 @@ img {
   fill: #212529;
 }
 
+.fill-blue-9 {
+  fill: #1864ab;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1011,6 +1043,16 @@ img {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-1 {
@@ -1067,6 +1109,10 @@ img {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .leading-normal {
@@ -1141,6 +1187,12 @@ img {
 .shadow-top-2 {
   --tw-shadow: 0px -5px 24px 0px rgba(33,37,41,0.32);
   --tw-shadow-colored: 0px -5px 24px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-icon-border-blue {
+  --tw-shadow: inset 0px 0px 0px 1px #1864ab;
+  --tw-shadow-colored: inset 0px 0px 0px 1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1497,6 +1549,11 @@ img {
   background-color: rgb(231 245 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-blue-9:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 100 171 / var(--tw-bg-opacity));
+}
+
 .hover\:text-gray-9:hover {
   --tw-text-opacity: 1;
   color: rgb(33 37 41 / var(--tw-text-opacity));
@@ -1535,6 +1592,10 @@ img {
 
 .group:hover .group-hover\:fill-gray-9 {
   fill: #212529;
+}
+
+.group:hover .group-hover\:fill-blue-0 {
+  fill: #e7f5ff;
 }
 
 .group:hover .group-hover\:pt-5 {
@@ -1613,6 +1674,10 @@ img {
     height: 1.75rem;
   }
 
+  .md\:h-72 {
+    height: 18rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -1664,6 +1729,10 @@ img {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1702,6 +1771,15 @@ img {
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-x-9 {
+    -moz-column-gap: 2.25rem;
+         column-gap: 2.25rem;
+  }
+
+  .md\:gap-y-16 {
+    row-gap: 4rem;
   }
 
   .md\:justify-self-end {
@@ -1767,6 +1845,11 @@ img {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:text-xl {
@@ -1885,6 +1968,10 @@ img {
     height: 2rem;
   }
 
+  .xl\:h-80 {
+    height: 20rem;
+  }
+
   .xl\:w-7 {
     width: 1.75rem;
   }
@@ -1929,6 +2016,15 @@ img {
     gap: 2rem;
   }
 
+  .xl\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
+  .xl\:gap-y-20 {
+    row-gap: 5rem;
+  }
+
   .xl\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1961,6 +2057,11 @@ img {
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .xl\:text-xl {
