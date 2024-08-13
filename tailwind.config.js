@@ -56,7 +56,9 @@ module.exports = {
         // Gradients
 
         "home-hero-overlay":
-          "linear-gradient(0deg, rgba(24,100,171,1) 0%, rgba(24,100,171,0.9) 50%, rgba(24,100,171,0.2) 100%)",
+          "linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.9) 50%, rgba(24, 100, 171, 0.2) 100%)",
+        "project-overlay":
+          "linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.2) 100%)",
 
         // Images
 

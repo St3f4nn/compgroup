@@ -104,7 +104,7 @@
                     <a href="#our-history" class="nav-link">our history</a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link">projects</a>
+                    <a href="#projects" class="nav-link">projects</a>
                   </li>
                   <li>
                     <a href="#" class="nav-link">testimonials</a>
@@ -967,94 +967,165 @@
         </div>
       </section>
       <!-- Projects section -->
-      <section>
+      <section class="py-28 md:py-32 xl:py-36" id="projects">
         <div class="container">
           <header>
-            <h4>our work</h4>
-            <h2>highlighted <span>projects</span></h2>
+            <h4 class="section-pre-heading text-center">our work</h4>
+            <h2 class="section-heading text-center">
+              highlighted <span>projects</span>
+            </h2>
           </header>
           <!-- Projects container -->
-          <div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 xl:gap-8 mt-24 relative"
+          >
             <img
               src="./assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -top-12 left-6 xl:-top-6 xl:-left-6"
             />
             <img
               src="./assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -bottom-12 right-6 xl:-bottom-6 xl:-right-6"
             />
             <!-- Project -->
-            <div>
+            <div
+              class="group relative z-20 rounded overflow-hidden shadow-right-1 md:col-span-2"
+            >
               <!-- Project image -->
               <img
                 src="./assets/images/projects/inteo.jpg"
                 alt="INTEO landing page"
+                class="absolute top-0 left-0 w-full h-full object-cover z-10 transition-all duration-200 group-hover:scale-125"
               />
-              <div>
+              <div
+                class="relative z-20 bg-project-overlay opacity-0 transition-all duration-200 group-hover:opacity-100 h-full min-h-64 md:min-h-72 xl:min-h-80 pt-36 px-6 pb-6 flex items-end"
+              >
                 <!-- Project info -->
-                <div>
-                  <h4>web solutions</h4>
-                  <h3>inteo</h3>
+                <div class="text-blue-0">
+                  <h4
+                    class="font-normal text-xs leading-normal tracking-20 uppercase"
+                  >
+                    web solutions
+                  </h4>
+                  <a
+                    href="https://inteodesign.netlify.app/"
+                    target="_blank"
+                    class="mt-2"
+                  >
+                    <h3 class="font-normal text-2xl uppercase">inteo</h3>
+                  </a>
                 </div>
               </div>
             </div>
             <!-- Project -->
-            <div>
+            <div
+              class="group relative z-20 rounded overflow-hidden shadow-right-2 md:col-start-2 xl:col-start-auto"
+            >
               <!-- Project image -->
               <img
                 src="./assets/images/projects/smart_lock.jpg"
                 alt="Smart Lock app"
+                class="absolute top-0 left-0 w-full h-full object-cover z-10 transition-all duration-200 group-hover:scale-125"
               />
-              <div>
+              <div
+                class="relative z-20 bg-project-overlay opacity-0 transition-all duration-200 group-hover:opacity-100 h-full min-h-64 md:min-h-72 xl:min-h-80 pt-36 px-6 pb-6 flex items-end"
+              >
                 <!-- Project info -->
-                <div>
-                  <h4>security systems</h4>
-                  <h3>smart lock</h3>
+                <div class="text-blue-0">
+                  <h4
+                    class="font-normal text-xs leading-normal tracking-20 uppercase"
+                  >
+                    security systems
+                  </h4>
+                  <a href="#" target="_blank" class="mt-2">
+                    <h3 class="font-normal text-2xl capitalize">smart lock</h3>
+                  </a>
                 </div>
               </div>
             </div>
             <!-- Project -->
-            <div>
+            <div
+              class="group relative z-20 rounded overflow-hidden shadow-right-2 md:row-span-2 md:row-start-1 xl:row-start-auto md:col-start-3 xl:col-start-auto"
+            >
               <!-- Project image -->
               <img
                 src="./assets/images/projects/security_camera.jpg"
                 alt="Security camera on wall"
+                class="absolute top-0 left-0 w-full h-full object-cover z-10 transition-all duration-200 group-hover:scale-125"
               />
-              <div>
+              <div
+                class="relative z-20 bg-project-overlay opacity-0 transition-all duration-200 group-hover:opacity-100 h-full min-h-64 md:min-h-72 xl:min-h-80 pt-36 px-6 pb-6 flex items-end"
+              >
                 <!-- Project info -->
-                <div>
-                  <h4>security systems</h4>
-                  <h3>EquiSafe</h3>
+                <div class="text-blue-0">
+                  <h4
+                    class="font-normal text-xs leading-normal tracking-20 uppercase"
+                  >
+                    security systems
+                  </h4>
+                  <a href="#" target="_blank" class="mt-2">
+                    <h3 class="font-normal text-2xl">EquiSafe</h3>
+                  </a>
                 </div>
               </div>
             </div>
             <!-- Project -->
-            <div>
+            <div
+              class="group relative z-20 rounded overflow-hidden shadow-right-2 md:row-start-2 xl:row-start-auto"
+            >
               <!-- Project image -->
               <img
                 src="./assets/images/projects/hotel_room.jpg"
                 alt="Hotel room"
+                class="absolute top-0 left-0 w-full h-full object-cover z-10 transition-all duration-200 group-hover:scale-125"
               />
-              <div>
+              <div
+                class="relative z-20 bg-project-overlay opacity-0 transition-all duration-200 group-hover:opacity-100 h-full min-h-64 md:min-h-72 xl:min-h-80 pt-36 px-6 pb-6 flex items-end"
+              >
                 <!-- Project info -->
-                <div>
-                  <h4>photography</h4>
-                  <h3>holiday resort</h3>
+                <div class="text-blue-0">
+                  <h4
+                    class="font-normal text-xs leading-normal tracking-20 uppercase"
+                  >
+                    photography
+                  </h4>
+                  <a href="#" target="_blank" class="mt-2">
+                    <h3 class="font-normal text-2xl capitalize">
+                      holiday resort
+                    </h3>
+                  </a>
                 </div>
               </div>
             </div>
             <!-- Project -->
-            <div>
+            <div
+              class="group relative z-20 rounded overflow-hidden shadow-right-1 md:shadow-right-2 xl:shadow-right-1 md:col-span-full xl:col-span-2"
+            >
               <!-- Project image -->
               <img
                 src="./assets/images/projects/drivecare.jpg"
                 alt="DriveCare landing page"
+                class="absolute top-0 left-0 w-full h-full object-cover z-10 transition-all duration-200 group-hover:scale-125"
               />
-              <div>
+              <div
+                class="relative z-20 bg-project-overlay opacity-0 transition-all duration-200 group-hover:opacity-100 h-full min-h-64 md:min-h-72 xl:min-h-80 pt-36 px-6 pb-6 flex items-end"
+              >
                 <!-- Project info -->
-                <div>
-                  <h4>web solutions</h4>
-                  <h3>DriveCare</h3>
+                <div class="text-blue-0">
+                  <h4
+                    class="font-normal text-xs leading-normal tracking-20 uppercase"
+                  >
+                    web solutions
+                  </h4>
+                  <a
+                    href="https://drivecare.netlify.app/"
+                    target="_blank"
+                    class="mt-2"
+                  >
+                    <h3 class="font-normal text-2xl">DriveCare</h3>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1238,7 +1309,7 @@
                   <a href="#our-history" class="footer-link">our history</a>
                 </li>
                 <li>
-                  <a href="#" class="footer-link">projects</a>
+                  <a href="#projects" class="footer-link">projects</a>
                 </li>
                 <li>
                   <a href="#" class="footer-link">testimonials</a>
