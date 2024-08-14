@@ -68,6 +68,7 @@ module.exports = {
         montserrat: "'Montserrat', sans-serif",
       },
       gridTemplateColumns: {
+        "testimonials-tablet-layout": "1fr 2fr",
         "footer-desktop-layout": "2fr 1fr 1fr 2fr",
       },
       letterSpacing: {
