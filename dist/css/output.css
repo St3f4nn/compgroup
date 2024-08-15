@@ -1038,12 +1038,12 @@ img {
   background-image: url('../assets/images/gallery/office_team_2.jpg');
 }
 
-.bg-project-overlay {
-  background-image: linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.2) 100%);
-}
-
 .bg-office-team-3 {
   background-image: url('../assets/images/gallery/office_team_3.jpg');
+}
+
+.bg-project-overlay {
+  background-image: linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.2) 100%);
 }
 
 .bg-woman-photoshooting {
