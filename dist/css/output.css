@@ -1050,6 +1050,10 @@ img {
   background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
 }
 
+.bg-main-cover {
+  background-image: url('../assets/images/cover.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }

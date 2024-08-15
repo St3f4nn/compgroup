@@ -71,6 +71,8 @@ module.exports = {
         "woman-photoshooting":
           "url('../assets/images/gallery/woman_photoshooting.jpg')",
         "office-team-3": "url('../assets/images/gallery/office_team_3.jpg')",
+
+        "main-cover": "url('../assets/images/cover.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
