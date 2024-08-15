@@ -63,6 +63,14 @@ module.exports = {
         // Images
 
         "company-building": "url('../assets/images/company_building.jpg')",
+
+        "office-team": "url('../assets/images/gallery/office_team.jpg')",
+        "guy-repairing-monitor":
+          "url('../assets/images/gallery/guy_repairing_monitor.jpg')",
+        "office-team-2": "url('../assets/images/gallery/office_team_2.jpg')",
+        "woman-photoshooting":
+          "url('../assets/images/gallery/woman_photoshooting.jpg')",
+        "office-team-3": "url('../assets/images/gallery/office_team_3.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",

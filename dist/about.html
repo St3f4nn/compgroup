@@ -1410,43 +1410,49 @@
         </div>
       </section>
       <!-- Gallery section -->
-      <section>
+      <section class="bg-gray-1 py-28 md:py-32 xl:py-36">
         <div class="container">
           <header>
-            <h4>gallery</h4>
-            <h2>our <span>work environment</span> up close</h2>
+            <h4 class="section-pre-heading text-center">gallery</h4>
+            <h2 class="section-heading text-center">
+              our <span>work environment</span> up close
+            </h2>
           </header>
-          <div>
+          <div class="mt-24 relative">
             <img
               src="./assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -top-12 left-6 xl:-top-6 xl:-left-6 z-10"
             />
             <img
               src="./assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -bottom-12 right-6 xl:-bottom-6 xl:-right-6 z-10"
             />
             <!-- Gallery container -->
-            <div>
-              <img
-                src="./assets/images/gallery/office_team.jpg"
-                alt="Team working in office"
-              />
-              <img
-                src="./assets/images/gallery/guy_repairing_monitor.jpg"
-                alt="Guy repairing monitor"
-              />
-              <img
-                src="./assets/images/gallery/office_team_2.jpg"
-                alt="Team working in office 2"
-              />
-              <img
-                src="./assets/images/gallery/woman_photoshooting.jpg"
-                alt="Woman photoshooting"
-              />
-              <img
-                src="./assets/images/gallery/office_team_3.jpg"
-                alt="Team working in office 3"
-              />
+            <div
+              class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 xl:gap-8 relative z-20"
+            >
+              <!-- Gallery box -->
+              <div
+                class="bg-office-team bg-no-repeat bg-center bg-cover shadow-right-2 rounded min-h-64 md:min-h-72 xl:min-h-80 md:col-span-2"
+              ></div>
+              <!-- Gallery box -->
+              <div
+                class="bg-guy-repairing-monitor bg-no-repeat bg-center bg-cover shadow-right-2 rounded min-h-64 md:min-h-72 xl:min-h-80 md:col-start-2 xl:col-start-auto"
+              ></div>
+              <!-- Gallery box -->
+              <div
+                class="bg-office-team-3 bg-no-repeat bg-center bg-cover shadow-right-2 rounded min-h-64 md:min-h-72 xl:min-h-80 md:row-span-2 md:row-start-1 xl:row-start-auto md:col-start-3 xl:col-start-auto"
+              ></div>
+              <!-- Gallery box -->
+              <div
+                class="bg-woman-photoshooting bg-no-repeat bg-center bg-cover shadow-right-2 rounded min-h-64 md:min-h-72 xl:min-h-80 md:row-start-2 xl:row-start-auto"
+              ></div>
+              <!-- Gallery box -->
+              <div
+                class="bg-office-team-2 bg-no-repeat bg-center bg-cover shadow-right-2 rounded min-h-64 md:min-h-72 xl:min-h-80 md:col-span-full xl:col-span-2"
+              ></div>
             </div>
           </div>
         </div>

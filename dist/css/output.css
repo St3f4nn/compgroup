@@ -1022,12 +1022,32 @@ img {
   background-image: url('../assets/images/company_building.jpg');
 }
 
+.bg-guy-repairing-monitor {
+  background-image: url('../assets/images/gallery/guy_repairing_monitor.jpg');
+}
+
 .bg-home-hero-overlay {
   background-image: linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.9) 50%, rgba(24, 100, 171, 0.2) 100%);
 }
 
+.bg-office-team {
+  background-image: url('../assets/images/gallery/office_team.jpg');
+}
+
+.bg-office-team-2 {
+  background-image: url('../assets/images/gallery/office_team_2.jpg');
+}
+
 .bg-project-overlay {
   background-image: linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.2) 100%);
+}
+
+.bg-office-team-3 {
+  background-image: url('../assets/images/gallery/office_team_3.jpg');
+}
+
+.bg-woman-photoshooting {
+  background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
 }
 
 .bg-cover {
