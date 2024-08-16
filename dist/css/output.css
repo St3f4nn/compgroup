@@ -1030,6 +1030,10 @@ img {
   background-image: linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.9) 50%, rgba(24, 100, 171, 0.2) 100%);
 }
 
+.bg-main-cover {
+  background-image: url('../assets/images/cover.jpg');
+}
+
 .bg-office-team {
   background-image: url('../assets/images/gallery/office_team.jpg');
 }
@@ -1048,10 +1052,6 @@ img {
 
 .bg-woman-photoshooting {
   background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
-}
-
-.bg-main-cover {
-  background-image: url('../assets/images/cover.jpg');
 }
 
 .bg-cover {
