@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  ::-moz-selection {
+    @apply text-blue-0 bg-blue-9;
+  }
+
+  ::selection {
+    @apply text-blue-0 bg-blue-9;
+  }
+
   a {
     @apply inline-block;
   }
