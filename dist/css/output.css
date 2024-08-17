@@ -611,6 +611,100 @@ img {
   }
 }
 
+.question {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  --tw-shadow: 5px 5px 24px 0px rgba(33,37,41,0.08);
+  --tw-shadow-colored: 5px 5px 24px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.question::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  height: 1px;
+  width: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 100 171 / var(--tw-bg-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.question:hover::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .question {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .question {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
+
+.question.active::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.question.active p {
+  --tw-text-opacity: 1;
+  color: rgb(24 100 171 / var(--tw-text-opacity));
+}
+
+.question.active svg {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.question.active + * {
+  height: auto;
+  overflow: visible;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .question.active + * {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .question.active + * {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
+
 .fixed {
   position: fixed;
 }
@@ -831,6 +925,10 @@ img {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.max-w-240 {
+  max-width: 60rem;
 }
 
 .max-w-32 {
@@ -1169,6 +1267,11 @@ img {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .py-6 {
@@ -1790,6 +1893,11 @@ img {
   padding-top: 1.25rem;
 }
 
+.group:hover .group-hover\:text-blue-9 {
+  --tw-text-opacity: 1;
+  color: rgb(24 100 171 / var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
@@ -2082,6 +2190,11 @@ img {
     padding-right: 0px;
   }
 
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:px-9 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -2110,6 +2223,11 @@ img {
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .md\:py-7 {
@@ -2414,6 +2532,11 @@ img {
   .xl\:py-36 {
     padding-top: 9rem;
     padding-bottom: 9rem;
+  }
+
+  .xl\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .xl\:py-8 {
