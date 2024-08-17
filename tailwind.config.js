@@ -73,6 +73,8 @@ module.exports = {
         "office-team-3": "url('../assets/images/gallery/office_team_3.jpg')",
 
         "main-cover": "url('../assets/images/cover.jpg')",
+
+        brazing: "url('../assets/images/brazing.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
