@@ -1182,6 +1182,10 @@ img {
   background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
 }
 
+.bg-web-development {
+  background-image: url('../assets/images/web_development.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }

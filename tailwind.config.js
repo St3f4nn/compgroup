@@ -75,6 +75,8 @@ module.exports = {
         "main-cover": "url('../assets/images/cover.jpg')",
 
         brazing: "url('../assets/images/brazing.jpg')",
+
+        "web-development": "url('../assets/images/web_development.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
