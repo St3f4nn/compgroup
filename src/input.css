@@ -84,7 +84,7 @@
   }
 
   .section-heading span {
-    @apply text-blue-9 capitalize;
+    @apply text-blue-9;
   }
 
   .section-paragraph-box {
