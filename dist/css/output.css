@@ -1378,6 +1378,10 @@ img {
   text-transform: capitalize;
 }
 
+.normal-case {
+  text-transform: none;
+}
+
 .italic {
   font-style: italic;
 }
@@ -2405,6 +2409,10 @@ img {
 
   .xl\:-top-6 {
     top: -1.5rem;
+  }
+
+  .xl\:bottom-22\.5 {
+    bottom: 5.625rem;
   }
 
   .xl\:left-0 {

@@ -318,67 +318,120 @@
         </div>
       </section>
       <!-- Service features section -->
-      <section>
-        <div class="container">
+      <section class="bg-gray-1 py-28 md:py-32 xl:py-36">
+        <div
+          class="container grid grid-cols-1 md:grid-cols-2 items-center gap-16 md:gap-20 xl:gap-24"
+        >
           <!-- Service features image -->
-          <div>
+          <div class="relative">
             <img
               src="../assets/images/responsive_web_design.png"
               alt="Responsive web design mockup"
+              class="rounded relative z-20"
             />
             <img
               src="../assets/images/patterns/Circles.svg"
               alt="Circles pattern"
+              class="w-44 h-44 object-cover absolute -top-12 left-6 xl:top-auto xl:-left-6 xl:bottom-22.5 z-10"
             />
           </div>
           <!-- Service features text box -->
           <div>
             <header>
-              <h2>our <span>web solutions</span></h2>
+              <h2
+                class="font-normal text-2xl md:text-3xl xl:text-4xl xl:leading-tight text-gray-9 capitalize text-center md:text-left"
+              >
+                our <span class="text-blue-9">web solutions</span>
+              </h2>
             </header>
-            <ul>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <ul class="flex flex-col gap-5 md:gap-6 mt-10">
+              <li
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 capitalize flex items-start gap-5 md:gap-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="h-6 md:h-7 xl:h-8 fill-blue-9 flex-shrink-0"
+                >
                   <path
                     d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
                   />
                 </svg>
-                responsive <span>ui/ux</span> design
+                <div>
+                  responsive <span class="uppercase">ui/ux</span> design
+                </div>
               </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <li
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 capitalize flex items-start gap-5 md:gap-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="h-6 md:h-7 xl:h-8 fill-blue-9 flex-shrink-0"
+                >
                   <path
                     d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
                   />
                 </svg>
-                development (front-end, back-end, CMS...)
+                <div>
+                  development (<span class="normal-case">Front-end</span>,
+                  <span class="normal-case">Back-end</span>,
+                  <span class="uppercase">cms</span>...)
+                </div>
               </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <li
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 capitalize flex items-start gap-5 md:gap-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="h-6 md:h-7 xl:h-8 fill-blue-9 flex-shrink-0"
+                >
                   <path
                     d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
                   />
                 </svg>
-                e-commerce solutions
+                <div>
+                  <span class="normal-case">E-commerce</span>
+                  solutions
+                </div>
               </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <li
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 capitalize flex items-start gap-5 md:gap-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="h-6 md:h-7 xl:h-8 fill-blue-9 flex-shrink-0"
+                >
                   <path
                     d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
                   />
                 </svg>
                 search engine optimization
               </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <li
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 capitalize flex items-start gap-5 md:gap-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="h-6 md:h-7 xl:h-8 fill-blue-9 flex-shrink-0"
+                >
                   <path
                     d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
                   />
                 </svg>
                 mobile development
               </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <li
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 capitalize flex items-start gap-5 md:gap-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="h-6 md:h-7 xl:h-8 fill-blue-9 flex-shrink-0"
+                >
                   <path
                     d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
                   />
