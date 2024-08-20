@@ -82,6 +82,8 @@ module.exports = {
           "url('../assets/images/video_editing_software_control_track.jpg')",
 
         "audience-text": "url('../assets/images/audience_text.jpg')",
+
+        "guy-holding-camera": "url('../assets/images/guy_holding_camera.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
