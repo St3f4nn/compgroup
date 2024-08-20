@@ -842,6 +842,10 @@ img {
   margin-top: 1px;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1069,6 +1073,14 @@ img {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
+.gap-24 {
+  gap: 6rem;
 }
 
 .justify-self-center {
@@ -2032,6 +2044,10 @@ img {
     grid-row-start: 2;
   }
 
+  .md\:row-start-auto {
+    grid-row-start: auto;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -2192,6 +2208,10 @@ img {
     gap: 2.25rem;
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .md\:gap-x-9 {
     -moz-column-gap: 2.25rem;
          column-gap: 2.25rem;
@@ -2277,6 +2297,10 @@ img {
 
   .md\:text-center {
     text-align: center;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-3xl {
@@ -2503,6 +2527,14 @@ img {
     grid-template-columns: 2fr 1fr 1fr 2fr;
   }
 
+  .xl\:grid-cols-\[2fr_1fr\] {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .xl\:grid-cols-\[1fr_2fr\] {
+    grid-template-columns: 1fr 2fr;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -2596,6 +2628,10 @@ img {
 
   .xl\:pt-48 {
     padding-top: 12rem;
+  }
+
+  .xl\:pr-20 {
+    padding-right: 5rem;
   }
 
   .xl\:text-left {
