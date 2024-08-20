@@ -2106,6 +2106,10 @@ img {
     min-height: 18rem;
   }
 
+  .md\:min-h-73\.5 {
+    min-height: 18.375rem;
+  }
+
   .md\:min-h-max {
     min-height: -moz-max-content;
     min-height: max-content;
@@ -2493,6 +2497,10 @@ img {
 
   .xl\:min-h-80 {
     min-height: 20rem;
+  }
+
+  .xl\:min-h-98\.75 {
+    min-height: 24.6875rem;
   }
 
   .xl\:w-7 {
