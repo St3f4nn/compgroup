@@ -77,6 +77,9 @@ module.exports = {
         brazing: "url('../assets/images/brazing.jpg')",
 
         "web-development": "url('../assets/images/web_development.jpg')",
+
+        "video-editing-software-control-track":
+          "url('../assets/images/video_editing_software_control_track.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",

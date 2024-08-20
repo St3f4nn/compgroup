@@ -1198,6 +1198,10 @@ img {
   background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
 }
 
+.bg-video-editing-software-control-track {
+  background-image: url('../assets/images/video_editing_software_control_track.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
