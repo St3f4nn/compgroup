@@ -80,6 +80,8 @@ module.exports = {
 
         "video-editing-software-control-track":
           "url('../assets/images/video_editing_software_control_track.jpg')",
+
+        "audience-text": "url('../assets/images/audience_text.jpg')",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",

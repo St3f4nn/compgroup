@@ -1154,6 +1154,10 @@ img {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-audience-text {
+  background-image: url('../assets/images/audience_text.jpg');
+}
+
 .bg-brazing {
   background-image: url('../assets/images/brazing.jpg');
 }
