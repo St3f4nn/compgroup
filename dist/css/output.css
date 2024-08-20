@@ -1210,6 +1210,10 @@ img {
   background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
 }
 
+.bg-security-cameras {
+  background-image: url('../assets/images/security_cameras.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
