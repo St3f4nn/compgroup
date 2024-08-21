@@ -1198,6 +1198,10 @@ img {
   background-image: linear-gradient(0deg, rgba(24, 100, 171, 1) 0%, rgba(24, 100, 171, 0.2) 100%);
 }
 
+.bg-security-cameras {
+  background-image: url('../assets/images/security_cameras.jpg');
+}
+
 .bg-video-editing-software-control-track {
   background-image: url('../assets/images/video_editing_software_control_track.jpg');
 }
@@ -1208,10 +1212,6 @@ img {
 
 .bg-woman-photoshooting {
   background-image: url('../assets/images/gallery/woman_photoshooting.jpg');
-}
-
-.bg-security-cameras {
-  background-image: url('../assets/images/security_cameras.jpg');
 }
 
 .bg-cover {
