@@ -94,10 +94,6 @@ module.exports = {
         "testimonials-tablet-layout": "1fr 2fr",
         "footer-desktop-layout": "2fr 1fr 1fr 2fr",
       },
-      height: {
-        73.5: "18.375rem",
-        98.75: "24.6875rem",
-      },
       letterSpacing: {
         20: "0.2em",
       },
