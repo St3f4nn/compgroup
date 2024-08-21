@@ -902,20 +902,6 @@ img {
   height: 100%;
 }
 
-.max-h-max {
-  max-height: -moz-max-content;
-  max-height: max-content;
-}
-
-.max-h-fit {
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
 .min-h-64 {
   min-height: 16rem;
 }
@@ -2128,10 +2114,6 @@ img {
     height: max-content;
   }
 
-  .md\:h-73\.5 {
-    height: 18.375rem;
-  }
-
   .md\:min-h-72 {
     min-height: 18rem;
   }
@@ -2523,10 +2505,6 @@ img {
 
   .xl\:h-80 {
     height: 20rem;
-  }
-
-  .xl\:h-98\.75 {
-    height: 24.6875rem;
   }
 
   .xl\:min-h-80 {
