@@ -1182,6 +1182,10 @@ img {
   background-image: url('../assets/images/cover.jpg');
 }
 
+.bg-man-on-call {
+  background-image: url('../assets/images/man_on_call.jpg');
+}
+
 .bg-office-team {
   background-image: url('../assets/images/gallery/office_team.jpg');
 }
