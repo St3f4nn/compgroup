@@ -23,6 +23,10 @@
     @apply w-full;
   }
 
+  select {
+    @apply appearance-none bg-none;
+  }
+
   #main-header.open-nav .container #hamburger-icon {
     @apply hidden;
   }
@@ -114,6 +118,11 @@
   .footer-link {
     @apply font-normal text-sm leading-normal text-gray-7 transition-all duration-200 hover:text-gray-9 capitalize flex;
   }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 @media (max-width: 47.9375rem) {

@@ -20,11 +20,13 @@ module.exports = {
 
       "icon-border-dark": "inset 0px 0px 0px 2px #212529",
 
+      "icon-border-red": "inset 0px 0px 0px 1px #f03e3e",
+      "icon-border-green": "inset 0px 0px 0px 1px #0ca678",
       "icon-border-blue": "inset 0px 0px 0px 1px #1864ab",
 
-      "icon-border-light-blue": "inset 0px 0px 0px 1px #e7f5ff",
       "icon-border-light-red": "inset 0px 0px 0px 1px #fff5f5",
       "icon-border-light-green": "inset 0px 0px 0px 1px #e6fcf5",
+      "icon-border-light-blue": "inset 0px 0px 0px 1px #e7f5ff",
 
       none: "0 0 #000",
     },
@@ -102,6 +104,9 @@ module.exports = {
         240: "60rem",
       },
       minHeight: {
+        45.75: "11.4375rem",
+        46.75: "11.6875rem",
+        49.25: "12.3125rem",
         73.5: "18.375rem",
         98.75: "24.6875rem",
       },
@@ -109,6 +114,8 @@ module.exports = {
         55: "13.75rem",
       },
       spacing: {
+        0.75: "0.1875rem",
+        13.75: "3.4375rem",
         18.375: "4.59375rem",
         22.5: "5.625rem",
       },

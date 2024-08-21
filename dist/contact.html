@@ -267,19 +267,29 @@
         </div>
       </section>
       <!-- Contact section -->
-      <section>
+      <section
+        class="bg-white py-28 md:py-32 xl:py-36 relative overflow-hidden"
+        id="contact"
+      >
         <!-- Lines pattern desktop -->
         <img
           src="./assets/images/patterns/lines_pattern_top_left.png"
           alt="Lines pattern desktop"
+          class="hidden md:inline opacity-20 max-w-screen-md absolute top-0 left-0 z-10 select-none"
         />
-        <div class="container">
+        <div
+          class="container relative z-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[1fr_1.5fr] md:items-start gap-16 md:gap-20 xl:gap-24"
+        >
           <!-- Contact section text box -->
           <div>
             <header>
-              <h2>let’s get <span>in touch</span></h2>
+              <h2
+                class="font-normal text-2xl md:text-3xl xl:text-4xl xl:leading-tight text-gray-9 capitalize"
+              >
+                let’s get <span class="text-blue-9">in touch</span>
+              </h2>
             </header>
-            <p>
+            <p class="section-paragraph mt-10">
               Whether it's about our services, a project, or any other
               questions, don't hesitate to reach out. Use the form to send us a
               message, and we'll respond promptly.
@@ -287,187 +297,181 @@
           </div>
           <!-- Contact section form -->
           <div>
-            <p><span>note:</span> Fields marked with * are required</p>
-            <form autocomplete="on">
-              <!-- Field: FIRST NAME -->
-              <input
-                type="text"
-                name="first-name"
-                placeholder="First name *"
-                required
-              />
-              <!-- Field: LAST NAME -->
-              <input
-                type="text"
-                name="last-name"
-                placeholder="Last name *"
-                required
-              />
-              <!-- Field: WORK E-MAIL -->
-              <input
-                type="email"
-                name="e-mail"
-                placeholder="Work e-mail *"
-                required
-              />
-              <!-- Field: PHONE NUMBER -->
-              <input
-                type="tel"
-                name="phone-number"
-                placeholder="Phone number"
-              />
-              <!-- Field: SERVICE SELECTION -->
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  height="16"
-                >
-                  <path
-                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-                  />
-                </svg>
-                <select name="services">
-                  <option disabled selected>select a service</option>
-                  <option value="hardware-repair">hardware repair</option>
-                  <option value="web-solutions">web solutions</option>
-                  <option value="video-editing">video editing</option>
-                  <option value="digital-marketing">digital marketing</option>
-                  <option value="photography">photography</option>
-                  <option value="security-systems">security systems</option>
-                </select>
+            <p
+              class="font-normal text-xs leading-normal md:text-sm md:leading-normal text-blue-9"
+            >
+              <span class="uppercase">note:</span> Fields marked with * are
+              required
+            </p>
+            <form autocomplete="on" class="mt-12 md:mt-13.75 xl:mt-16">
+              <!-- Fields -->
+              <div
+                class="grid grid-cols-1 xl:grid-cols-2 gap-10 md:gap-11 xl:gap-12"
+              >
+                <!-- Field: FIRST NAME -->
+                <input
+                  type="text"
+                  name="first-name"
+                  placeholder="First name *"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  required
+                />
+                <!-- Field: LAST NAME -->
+                <input
+                  type="text"
+                  name="last-name"
+                  placeholder="Last name *"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  required
+                />
+                <!-- Field: WORK E-MAIL -->
+                <input
+                  type="email"
+                  name="e-mail"
+                  placeholder="Work e-mail *"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  required
+                />
+                <!-- Field: PHONE NUMBER -->
+                <input
+                  type="tel"
+                  name="phone-number"
+                  placeholder="Phone number"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                />
+                <!-- Field: SERVICE SELECTION -->
+                <div class="relative">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    class="h-4 absolute right-0 top-1/2 -translate-y-1/2 fill-gray-7 pointer-events-none"
+                  >
+                    <path
+                      d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                    />
+                  </svg>
+                  <select
+                    name="services"
+                    class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 pr-8 block w-full bg-transparent"
+                  >
+                    <option disabled selected>Select a service</option>
+                    <option value="hardware-repair">Hardware Repair</option>
+                    <option value="web-solutions">Web Solutions</option>
+                    <option value="video-editing">Video Editing</option>
+                    <option value="digital-marketing">Digital Marketing</option>
+                    <option value="photography">Photography</option>
+                    <option value="security-systems">Security Systems</option>
+                  </select>
+                </div>
+                <!-- Field: SUBJECT NAME -->
+                <input
+                  type="text"
+                  name="subject-name"
+                  placeholder="Subject *"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  required
+                />
+                <!-- Field: MESSAGE AREA -->
+                <textarea
+                  name="message-area"
+                  placeholder="Message *"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none block w-full resize-none p-4 rounded min-h-46.75 md:min-h-49.25 xl:min-h-45.75 col-span-full bg-transparent"
+                  required
+                ></textarea>
               </div>
-              <!-- Field: SUBJECT NAME -->
-              <input
-                type="text"
-                name="subject-name"
-                placeholder="Subject *"
-                required
-              />
-              <!-- Field: MESSAGE AREA -->
-              <textarea
-                name="message-area"
-                placeholder="Message *"
-                required
-              ></textarea>
-              <!-- Submit button -->
-              <button type="submit">submit</button>
+              <div
+                class="flex flex-col sm:flex-row items-start gap-3 mt-10 md:mt-11 xl:mt-12"
+              >
+                <button
+                  type="submit"
+                  class="font-normal text-base capitalize py-3 px-8 rounded bg-blue-9 text-blue-0 shadow-cta-dark transition-all duration-200 hover:bg-transparent hover:text-blue-9"
+                >
+                  submit
+                </button>
+                <!-- Warnings -->
+                <div class="flex flex-col">
+                  <!-- Empty fields warning notification -->
+                  <div
+                    class="hidden items-start gap-2 py-3 rounded"
+                    id="empty-fields-warning-notification"
+                  >
+                    <!-- Empty fields warning notification icon -->
+                    <div
+                      class="w-6 h-6 shadow-icon-border-red rounded-full flex items-center justify-center flex-shrink-0"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 512"
+                        height="12"
+                        fill="#f03e3e"
+                      >
+                        <path
+                          d="M96 64c0-17.7-14.3-32-32-32S32 46.3 32 64l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32L96 64zM64 480a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
+                        />
+                      </svg>
+                    </div>
+                    <p
+                      class="font-normal text-xs leading-normal text-red-7 mt-0.75"
+                    >
+                      Required fields are not filled in.
+                    </p>
+                  </div>
+                  <!-- E-mail warning notification -->
+                  <div
+                    class="hidden items-start gap-2 py-3 rounded"
+                    id="email-warning-notification"
+                  >
+                    <!-- E-mail warning notification icon -->
+                    <div
+                      class="w-6 h-6 shadow-icon-border-red rounded-full flex items-center justify-center flex-shrink-0"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 128 512"
+                        height="12"
+                        fill="#f03e3e"
+                      >
+                        <path
+                          d="M96 64c0-17.7-14.3-32-32-32S32 46.3 32 64l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32L96 64zM64 480a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
+                        />
+                      </svg>
+                    </div>
+                    <p
+                      class="font-normal text-xs leading-normal text-red-7 mt-0.75"
+                    >
+                      E-mail is not correct.
+                    </p>
+                  </div>
+                </div>
+                <!-- Form submission success notification -->
+                <div
+                  class="hidden items-start gap-2 py-3 rounded"
+                  id="form-submission-success-notification"
+                >
+                  <!-- Form submission success notification icon -->
+                  <div
+                    class="w-6 h-6 shadow-icon-border-green rounded-full flex items-center justify-center flex-shrink-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      height="12"
+                      fill="#0ca678"
+                    >
+                      <path
+                        d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+                      />
+                    </svg>
+                  </div>
+                  <p
+                    class="font-normal text-xs leading-normal text-teal-7 mt-0.75"
+                  >
+                    Submission successful. Thank you!
+                  </p>
+                </div>
+              </div>
             </form>
           </div>
-        </div>
-        <!-- Empty fields warning notification -->
-        <div
-          class="bg-red-7 hidden items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
-          id="warning-notification"
-        >
-          <!-- Warning notification icon -->
-          <div
-            class="w-6 h-6 shadow-icon-border-light-red rounded-full flex items-center justify-center flex-shrink-0"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 128 512"
-              height="12"
-              fill="#fff5f5"
-            >
-              <path
-                d="M96 64c0-17.7-14.3-32-32-32S32 46.3 32 64l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32L96 64zM64 480a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
-              />
-            </svg>
-          </div>
-          <p class="font-normal text-xs leading-normal text-red-0">
-            Required fields are not filled in.
-          </p>
-          <!-- Close button -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 384 512"
-            width="9"
-            height="12"
-            fill="#fff5f5"
-            class="cursor-pointer ml-auto flex-shrink-0"
-            id="close-note-btn"
-          >
-            <path
-              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
-            />
-          </svg>
-        </div>
-        <!-- E-mail warning notification -->
-        <div
-          class="bg-red-7 hidden items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
-          id="warning-notification"
-        >
-          <!-- Warning notification icon -->
-          <div
-            class="w-6 h-6 shadow-icon-border-light-red rounded-full flex items-center justify-center flex-shrink-0"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 128 512"
-              height="12"
-              fill="#fff5f5"
-            >
-              <path
-                d="M96 64c0-17.7-14.3-32-32-32S32 46.3 32 64l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32L96 64zM64 480a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
-              />
-            </svg>
-          </div>
-          <p class="font-normal text-xs leading-normal text-red-0">
-            E-mail is not correct.
-          </p>
-          <!-- Close button -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 384 512"
-            width="9"
-            height="12"
-            fill="#fff5f5"
-            class="cursor-pointer ml-auto flex-shrink-0"
-            id="close-note-btn"
-          >
-            <path
-              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
-            />
-          </svg>
-        </div>
-        <!-- Form submission success notification -->
-        <div
-          class="bg-teal-7 hidden items-center gap-2 p-3 rounded max-w-96 fixed bottom-8 right-6 left-6 mx-auto z-50"
-          id="success-notification"
-        >
-          <!-- Success notification icon -->
-          <div
-            class="w-6 h-6 shadow-icon-border-light-green rounded-full flex items-center justify-center flex-shrink-0"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              height="12"
-              fill="#e6fcf5"
-            >
-              <path
-                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
-              />
-            </svg>
-          </div>
-          <p class="font-normal text-xs leading-normal text-teal-0">
-            Submission successful. Thank you!
-          </p>
-          <!-- Close button -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 384 512"
-            width="9"
-            height="12"
-            fill="#e6fcf5"
-            class="cursor-pointer ml-auto flex-shrink-0"
-            id="close-note-btn"
-          >
-            <path
-              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
-            />
-          </svg>
         </div>
       </section>
     </main>
