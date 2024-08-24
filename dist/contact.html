@@ -384,7 +384,7 @@
                 ></textarea>
               </div>
               <div
-                class="flex flex-col sm:flex-row items-start gap-3 mt-10 md:mt-11 xl:mt-12"
+                class="flex flex-col sm:flex-row items-start sm:gap-3 mt-10 md:mt-11 xl:mt-12"
               >
                 <button
                   type="submit"
@@ -479,26 +479,46 @@
         </div>
       </section>
       <!-- Headquarters section -->
-      <section>
+      <section class="bg-gray-1 py-28 md:py-32 xl:py-36">
         <div class="container">
-          <h4>our headquarters</h4>
+          <h4
+            class="font-normal text-base tracking-20 text-center text-blue-9 uppercase"
+          >
+            our headquarters
+          </h4>
           <!-- Headquarters contianer -->
-          <div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-9 xl:gap-10 mt-11"
+          >
             <!-- Headquarter -->
             <div>
               <img
                 src="./assets/images/cities/toronto.jpg"
                 alt="Picture of Toronto city"
+                class="h-64 md:h-48 xl:h-64 object-cover rounded"
               />
-              <h3>toronto</h3>
+              <h3
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 text-center md:text-left capitalize mt-8"
+              >
+                toronto
+              </h3>
               <a
                 href="https://www.google.com/maps/search/123+Maple+Street,+Toronto,+ON/@43.718371,-79.5428639,52589m/data=!3m2!1e3!4b1?authuser=0&entry=ttu"
-                >123 maple street, toronto, on</a
+                class="font-normal text-sm leading-normal md:text-base xl:text-lg text-gray-9 text-center md:text-left capitalize w-full mt-6"
+                >123 maple street, toronto, <span class="uppercase">on</span></a
               >
               <!-- Headquarter contact -->
-              <div>
-                <a href="tel:+1 (416) 555-7890">Phone: +1 (416) 555-7890</a>
-                <a href="mailto:office@compgroup.com"
+              <div
+                class="flex flex-col gap-2 items-center text-center md:items-stretch md:text-left mt-4"
+              >
+                <a
+                  href="tel:+1 (416) 555-7890"
+                  class="font-normal text-xs leading-normal md:text-sm md:leading-normal xl:text-base text-gray-7 transition-all duration-200 hover:text-gray-9"
+                  >Phone: +1 (416) 555-7890</a
+                >
+                <a
+                  href="mailto:office@compgroup.com"
+                  class="font-normal text-xs leading-normal md:text-sm md:leading-normal xl:text-base text-gray-7 transition-all duration-200 hover:text-gray-9"
                   >E-mail: office@compgroup.com</a
                 >
               </div>
@@ -508,16 +528,31 @@
               <img
                 src="./assets/images/cities/chicago.jpg"
                 alt="Picture of Chicago city"
+                class="h-64 md:h-48 xl:h-64 object-cover rounded"
               />
-              <h3>chicago</h3>
+              <h3
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 text-center md:text-left capitalize mt-8"
+              >
+                chicago
+              </h3>
               <a
                 href="https://www.google.com/maps/place/1234+W+Randolph+St,+Chicago,+IL+60607,+USA/@41.884629,-87.660553,846m/data=!3m2!1e3!4b1!4m6!3m5!1s0x880e2cd874dd025f:0x3a5fe4fb2b8f254f!8m2!3d41.884625!4d-87.6579781!16s%2Fg%2F11b8vc8fq6?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
-                >1234 w randolph st, chicago, il</a
+                class="font-normal text-sm leading-normal md:text-base xl:text-lg text-gray-9 text-center md:text-left capitalize w-full mt-6"
+                >1234 w randolph st, chicago,
+                <span class="uppercase">il</span></a
               >
               <!-- Headquarter contact -->
-              <div>
-                <a href="tel:+1 312-555-1234">Phone: +1 312-555-1234</a>
-                <a href="mailto:office-us@compgroup.com"
+              <div
+                class="flex flex-col gap-2 items-center text-center md:items-stretch md:text-left mt-4"
+              >
+                <a
+                  href="tel:+1 312-555-1234"
+                  class="font-normal text-xs leading-normal md:text-sm md:leading-normal xl:text-base text-gray-7 transition-all duration-200 hover:text-gray-9"
+                  >Phone: +1 312-555-1234</a
+                >
+                <a
+                  href="mailto:office-us@compgroup.com"
+                  class="font-normal text-xs leading-normal md:text-sm md:leading-normal xl:text-base text-gray-7 transition-all duration-200 hover:text-gray-9"
                   >E-mail: office-us@compgroup.com</a
                 >
               </div>
@@ -527,16 +562,30 @@
               <img
                 src="./assets/images/cities/berlin.jpg"
                 alt="Picture of Berlin city"
+                class="h-64 md:h-48 xl:h-64 object-cover rounded"
               />
-              <h3>berlin</h3>
+              <h3
+                class="font-normal text-lg leading-6 md:text-xl xl:text-2xl text-gray-9 text-center md:text-left capitalize mt-8"
+              >
+                berlin
+              </h3>
               <a
                 href="https://www.google.com/maps/place/Kurf%C3%BCrstendamm,+Berlin-Bezirk+Charlottenburg-Wilmersdorf,+Germany/@52.5044032,13.3327775,692m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47a850e8a82af437:0xc9786de6c60b8170!8m2!3d52.5044!4d13.3353524!16zL20vMDRjaGM?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
+                class="font-normal text-sm leading-normal md:text-base xl:text-lg text-gray-9 text-center md:text-left capitalize w-full mt-6"
                 >5678 kurfürstendamm, berlin</a
               >
               <!-- Headquarter contact -->
-              <div>
-                <a href="tel:+49 30 12345678">Phone: +49 30 12345678</a>
-                <a href="mailto:office-de@compgroup.com"
+              <div
+                class="flex flex-col gap-2 items-center text-center md:items-stretch md:text-left mt-4"
+              >
+                <a
+                  href="tel:+49 30 12345678"
+                  class="font-normal text-xs leading-normal md:text-sm md:leading-normal xl:text-base text-gray-7 transition-all duration-200 hover:text-gray-9"
+                  >Phone: +49 30 12345678</a
+                >
+                <a
+                  href="mailto:office-de@compgroup.com"
+                  class="font-normal text-xs leading-normal md:text-sm md:leading-normal xl:text-base text-gray-7 transition-all duration-200 hover:text-gray-9"
                   >E-mail: office-de@compgroup.com</a
                 >
               </div>

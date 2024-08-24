@@ -873,6 +873,10 @@ select {
   margin-top: 1px;
 }
 
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
 .block {
   display: block;
 }
@@ -2071,6 +2075,10 @@ select {
     flex-direction: row;
   }
 
+  .sm\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .sm\:gap-x-9 {
     -moz-column-gap: 2.25rem;
          column-gap: 2.25rem;
@@ -2220,6 +2228,10 @@ select {
     height: max-content;
   }
 
+  .md\:h-48 {
+    height: 12rem;
+  }
+
   .md\:min-h-49\.25 {
     min-height: 12.3125rem;
   }
@@ -2300,6 +2312,10 @@ select {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:items-stretch {
+    align-items: stretch;
   }
 
   .md\:justify-center {
@@ -2456,6 +2472,11 @@ select {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:leading-normal {
@@ -2627,6 +2648,10 @@ select {
 
   .xl\:h-80 {
     height: 20rem;
+  }
+
+  .xl\:h-64 {
+    height: 16rem;
   }
 
   .xl\:min-h-45\.75 {
@@ -2805,6 +2830,11 @@ select {
 
   .xl\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
