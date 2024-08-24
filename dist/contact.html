@@ -303,7 +303,11 @@
               <span class="uppercase">note:</span> Fields marked with * are
               required
             </p>
-            <form autocomplete="on" class="mt-12 md:mt-13.75 xl:mt-16">
+            <form
+              autocomplete="on"
+              class="mt-12 md:mt-13.75 xl:mt-16"
+              id="contact-form"
+            >
               <!-- Fields -->
               <div
                 class="grid grid-cols-1 xl:grid-cols-2 gap-10 md:gap-11 xl:gap-12"
@@ -313,7 +317,7 @@
                   type="text"
                   name="first-name"
                   placeholder="First name *"
-                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent field"
                   required
                 />
                 <!-- Field: LAST NAME -->
@@ -321,7 +325,7 @@
                   type="text"
                   name="last-name"
                   placeholder="Last name *"
-                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent field"
                   required
                 />
                 <!-- Field: WORK E-MAIL -->
@@ -329,7 +333,7 @@
                   type="email"
                   name="e-mail"
                   placeholder="Work e-mail *"
-                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent field"
                   required
                 />
                 <!-- Field: PHONE NUMBER -->
@@ -337,7 +341,7 @@
                   type="tel"
                   name="phone-number"
                   placeholder="Phone number"
-                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent field"
                 />
                 <!-- Field: SERVICE SELECTION -->
                 <div class="relative">
@@ -368,14 +372,14 @@
                   type="text"
                   name="subject-name"
                   placeholder="Subject *"
-                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border-b border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none pb-1 block w-full bg-transparent field"
                   required
                 />
                 <!-- Field: MESSAGE AREA -->
                 <textarea
                   name="message-area"
                   placeholder="Message *"
-                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none block w-full resize-none p-4 rounded min-h-46.75 md:min-h-49.25 xl:min-h-45.75 col-span-full bg-transparent"
+                  class="font-normal text-base text-gray-7 placeholder:text-gray-7 border border-solid border-gray-7 transition-all duration-200 hover:border-gray-9 focus:border-gray-9 outline-none block w-full resize-none p-4 rounded min-h-46.75 md:min-h-49.25 xl:min-h-45.75 col-span-full bg-transparent field"
                   required
                 ></textarea>
               </div>
@@ -769,5 +773,6 @@
       </div>
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/form_submission.js"></script>
   </body>
 </html>

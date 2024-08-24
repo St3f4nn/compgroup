@@ -813,6 +813,14 @@ select {
   margin-left: auto;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-0\.75 {
+  margin-top: 0.1875rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -863,14 +871,6 @@ select {
 
 .mt-px {
   margin-top: 1px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mt-0\.75 {
-  margin-top: 0.1875rem;
 }
 
 .block {
@@ -1552,6 +1552,12 @@ select {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-icon-border-green {
+  --tw-shadow: inset 0px 0px 0px 1px #0ca678;
+  --tw-shadow-colored: inset 0px 0px 0px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-icon-border-light-blue {
   --tw-shadow: inset 0px 0px 0px 1px #e7f5ff;
   --tw-shadow-colored: inset 0px 0px 0px 1px var(--tw-shadow-color);
@@ -1603,12 +1609,6 @@ select {
 .shadow-top-2 {
   --tw-shadow: 0px -5px 24px 0px rgba(33,37,41,0.32);
   --tw-shadow-colored: 0px -5px 24px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-icon-border-green {
-  --tw-shadow: inset 0px 0px 0px 1px #0ca678;
-  --tw-shadow-colored: inset 0px 0px 0px 1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
