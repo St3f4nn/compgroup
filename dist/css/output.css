@@ -492,8 +492,9 @@ select {
 }
 
 #main-header.open-nav .container #navigation-menu {
-  --tw-translate-x: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  width: 75%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 *, ::before, ::after {
@@ -825,6 +826,10 @@ select {
   margin-top: 2.5rem;
 }
 
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -871,10 +876,6 @@ select {
 
 .mt-px {
   margin-top: 1px;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
 }
 
 .block {
@@ -972,6 +973,10 @@ select {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .max-w-240 {
@@ -1132,10 +1137,6 @@ select {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .scroll-smooth {
@@ -1377,6 +1378,11 @@ select {
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .pb-1 {
@@ -2211,6 +2217,10 @@ select {
     height: 4rem;
   }
 
+  .md\:h-48 {
+    height: 12rem;
+  }
+
   .md\:h-7 {
     height: 1.75rem;
   }
@@ -2226,10 +2236,6 @@ select {
   .md\:h-max {
     height: -moz-max-content;
     height: max-content;
-  }
-
-  .md\:h-48 {
-    height: 12rem;
   }
 
   .md\:min-h-49\.25 {
@@ -2459,6 +2465,11 @@ select {
     line-height: 1;
   }
 
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -2472,11 +2483,6 @@ select {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .md\:leading-normal {
@@ -2638,6 +2644,10 @@ select {
     height: 1rem;
   }
 
+  .xl\:h-64 {
+    height: 16rem;
+  }
+
   .xl\:h-7 {
     height: 1.75rem;
   }
@@ -2648,10 +2658,6 @@ select {
 
   .xl\:h-80 {
     height: 20rem;
-  }
-
-  .xl\:h-64 {
-    height: 16rem;
   }
 
   .xl\:min-h-45\.75 {
@@ -2828,13 +2834,13 @@ select {
     line-height: 1.5rem;
   }
 
-  .xl\:text-xl {
-    font-size: 1.25rem;
+  .xl\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .xl\:text-lg {
-    font-size: 1.125rem;
+  .xl\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 

@@ -36,7 +36,7 @@
   }
 
   #main-header.open-nav .container #navigation-menu {
-    @apply translate-x-0;
+    @apply px-10 w-3/4;
   }
 }
 
